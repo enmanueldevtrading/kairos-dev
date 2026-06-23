@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@theme {
+  --color-dark-950: #0a0a0a;
+  --color-dark-900: #050505;
+  --color-dark-800: #111111;
+  --color-dark-700: #1a1a1a;
+  --color-cyan-400: #22d3ee;
+  --color-cyan-500: #06b6d4;
+  --color-violet-400: #a78bfa;
+  --color-violet-500: #8b5cf6;
+  --color-violet-600: #7c3aed;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(139, 92, 246, 0.3) transparent;
+}
+
+html.lenis {
+  scroll-behavior: auto;
+}
+.lenis-lock {
+  overflow: hidden;
+}
